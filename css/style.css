@@ -157,6 +157,7 @@ first div in the grid  and place it in the grid. */
   grid-column-end: 4;
   background-image: url('../images/header.jpg');
   height: auto;
+  padding-bottom: 20px;
 }
 
 
@@ -239,6 +240,10 @@ first div in the grid  and place it in the grid. */
   /* Step 10: Write the selector/rule property to update the .container class */
   .container {
     grid-template-columns: 50px auto 500px auto 50px;
+  }
+
+  .container div:first-child {
+    grid-column-end: 6;
   }
 
   /* Steps 11 and 12: Update the grid-column property of the grid's children (where-needed)*/
