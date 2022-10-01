@@ -155,7 +155,7 @@ first div in the grid  and place it in the grid. */
 .container div:first-child {
   grid-column-start: 1;
   grid-column-end: 4;
-  background-image: url('/images/header.jpg');
+  background-image: url('../images/header.jpg');
   height: auto;
 }
 
